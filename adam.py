@@ -12,7 +12,6 @@ class  Animal:
         for i in range (self.speed):
             time.sleep(0.5)
             print(f'{self.name} moved {i} step')
-            
         print(f'{self.name} has arrived {self.food}')
         
         
